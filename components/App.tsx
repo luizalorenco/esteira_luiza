@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, Route, Router, Switch } from "react-router-dom";
 import ItemList from "./ItemList";
-import ItemDetails from "./components/ItemDetails";
+import ItemDetails from './components/ItemDetails';
 import "./App.css";
 import "../App.tsx";
 
