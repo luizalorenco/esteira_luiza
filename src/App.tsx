@@ -11,23 +11,48 @@ function App() {
           Bem vindo ao carrinho de compras
           Escreva o nome de um item para adiciona-lo ao carrinho: __________
         </p>
-        <form>
-  <fieldset>
-    <legend>Fruit juice size</legend>
+        <section>
+    <h2>Contact information</h2>
+    <fieldset>
+      <legend>Title</legend>
+      <ul>
+          <li>
+            <label htmlFor="title_1">
+              <input type="radio" id="title_1" name="title" value="M." ></input>
+              Mister
+            </label>
+          </li>
+          <li>
+            <label htmlFor="title_2">
+              <input type="radio" id="title_2" name="title" value="Ms."></input>
+              Miss
+            </label>
+          </li>
+      </ul>
+    </fieldset>
     <p>
-      <input type="radio" name="size" id="size_1" value="small" />
-      <label htmlFor="size_1">Small</label>
+      <label htmlFor="name">
+        <span>Name: </span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="text" id="name" name="username"></input>
     </p>
     <p>
-      <input type="radio" name="size" id="size_2" value="medium" />
-      <label htmlFor="size_2">Medium</label>
+      <label htmlFor="mail">
+        <span>E-mail: </span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="email" id="mail" name="usermail"></input>
     </p>
     <p>
-      <input type="radio" name="size" id="size_3" value="large" />
-      <label htmlFor="size_3">Large</label>
+      <label htmlFor="pwd">
+        <span>Password: </span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="password" id="pwd" name="password"></input>
     </p>
-  </fieldset>
-</form>
+</section>
+
 
           <img src="https://www.imagensanimadas.com/data/media/1633/carrinho-de-supermercado-imagem-animada-0016.gif"></img>
           
