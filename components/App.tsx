@@ -1,12 +1,13 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link, Route, Router, Switch } from "react-router-dom";
 import ItemList from "./ItemList";
 import ItemDetails from "./components/ItemDetails";
 import "./App.css";
+import "../App.tsx";
 
 const App = () => {
   return (
-    <Router>
+    <Router location={""} navigator={undefined}>
       <div className="App">
         <nav>
           <ul>
@@ -16,7 +17,7 @@ const App = () => {
           </ul>
         </nav>
         <Switch>
-          <Route exact path="/">
+          <Route path="/">
             <ItemList />
           </Route>
           <Route path="/items/:id">
