@@ -6,11 +6,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Bem vindo ao carrinho de compras
-          Escreva o nome de um item para adiciona-lo ao carrinho: __________
-        </p>
         <section>
     <h2>CARRINHO DE COMPRAS</h2>
    
