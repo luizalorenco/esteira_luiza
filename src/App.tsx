@@ -12,41 +12,32 @@ function App() {
           Escreva o nome de um item para adiciona-lo ao carrinho: __________
         </p>
         <section>
-    <h2>Contact information</h2>
-    <fieldset>
-      <legend>Title</legend>
-      <ul>
-          <li>
-            <label htmlFor="title_1">
-              <input type="radio" id="title_1" name="title" value="M." ></input>
-              Mister
-            </label>
-          </li>
-          <li>
-            <label htmlFor="title_2">
-              <input type="radio" id="title_2" name="title" value="Ms."></input>
-              Miss
-            </label>
-          </li>
-      </ul>
-    </fieldset>
+    <h2>CARRINHO DE COMPRAS</h2>
+   
     <p>
       <label htmlFor="name">
-        <span>Name: </span>
+        <span>Nome do item:: </span>
         <strong><abbr title="required">*</abbr></strong>
       </label>
       <input type="text" id="name" name="username"></input>
     </p>
     <p>
       <label htmlFor="mail">
-        <span>E-mail: </span>
+        <span>Preço: </span>
         <strong><abbr title="required">*</abbr></strong>
       </label>
       <input type="email" id="mail" name="usermail"></input>
     </p>
     <p>
       <label htmlFor="pwd">
-        <span>Password: </span>
+        <span>Descrição: </span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="password" id="pwd" name="password"></input>
+    </p>
+    <p>
+      <label htmlFor="pwd">
+        <span>Quantidade: </span>
         <strong><abbr title="required">*</abbr></strong>
       </label>
       <input type="password" id="pwd" name="password"></input>
