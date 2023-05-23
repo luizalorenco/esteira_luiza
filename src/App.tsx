@@ -12,30 +12,30 @@ function App() {
     <p>
       <label htmlFor="name">
         <span>Nome do item:: </span>
-        <strong><abbr title="required">*</abbr></strong>
+        
       </label>
       <input type="text" id="name" name="username"></input>
     </p>
     <p>
       <label htmlFor="mail">
         <span>Preço: </span>
-        <strong><abbr title="required">*</abbr></strong>
+        
       </label>
       <input type="email" id="mail" name="usermail"></input>
     </p>
     <p>
       <label htmlFor="pwd">
         <span>Descrição: </span>
-        <strong><abbr title="required">*</abbr></strong>
+       
       </label>
-      <input type="password" id="pwd" name="password"></input>
+      <input type="text" id="pwd" name="text"></input>
     </p>
     <p>
       <label htmlFor="pwd">
         <span>Quantidade: </span>
-        <strong><abbr title="required">*</abbr></strong>
+        
       </label>
-      <input type="password" id="pwd" name="password"></input>
+      <input type="text" id="pwd" name="text"></input>
     </p>
 </section>
 
